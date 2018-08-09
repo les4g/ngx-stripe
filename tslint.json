@@ -18,6 +18,10 @@
                 "ngx-stripe"
             ],
             "kebab-case"
-        ]
+        ],
+        "import-blacklist": [
+            false,
+            "rxjs/Rx"
+          ],
     }
 }

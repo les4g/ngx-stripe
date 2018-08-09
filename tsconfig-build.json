@@ -9,7 +9,7 @@
         },
         "outDir": "dist",
         "declaration": true,
-        "strict": true,
+        "strict": false,
         "moduleResolution": "node",
         "module": "es2015",
         "target": "es2015",
@@ -22,7 +22,8 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "sourceMap": true,
-        "inlineSources": true
+        "inlineSources": true,
+        "strictPropertyInitialization": false
     },
     "files": [
         "public_api.ts",

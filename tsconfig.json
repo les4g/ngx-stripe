@@ -3,7 +3,7 @@
         "baseUrl": ".",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "strict": true,
+        "strict": false,
         "module": "commonjs",
         "moduleResolution": "node",
         "rootDir": ".",
@@ -17,7 +17,8 @@
         ],
         "typeRoots": [
             "node_modules/@types/"
-        ]
+        ],
+        "strictPropertyInitialization": false
     },
     "exclude": [
         "node_modules"

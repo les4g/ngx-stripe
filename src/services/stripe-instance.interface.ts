@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs/Observable';
 
 import { Element } from '../interfaces/element';
 import { ElementsOptions, Elements } from '../interfaces/elements';
@@ -12,6 +11,7 @@ import {
 } from '../interfaces/token';
 import { SourceData, SourceResult, SourceParams } from '../interfaces/sources';
 import { PaymentRequestOptions } from '../interfaces/payment-request';
+import { Observable } from '../../node_modules/rxjs';
 
 export interface StripeServiceInterface {
   elements(options?: ElementsOptions): Observable<Elements>;
